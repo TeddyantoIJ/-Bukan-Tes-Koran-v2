@@ -62,8 +62,11 @@ namespace _Bukan_TesKoran_7
             }
         }
         public void playMusik()
-        {             
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Musik\Zelda & Chill (online-audio-converter.com).wav");
+        {
+            //@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Musik\Zelda & Chill (online-audio-converter.com).wav"
+
+            String path = @"..\\Musik\\Zelda & Chill Fairy Fountain Mikel Lofi Remix.wav";            
+            SoundPlayer simpleSound = new SoundPlayer(path);
             simpleSound.PlayLooping();
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -125,9 +128,13 @@ namespace _Bukan_TesKoran_7
 
         private void uiGame_VisibleChanged(object sender, EventArgs e)
         {
-            if (uiGame.gameover)
+            if (uiGame.gameover && uiGame.benar > highscore)
             {
                 show(uiProfile);
+            }
+            else
+            {
+                show(dashboard);
             }
             //int highscore = 0;
             //switch (uiGame.kode_operasi)
