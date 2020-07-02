@@ -63,7 +63,7 @@ namespace _Bukan_TesKoran_7
         }
         public void playMusik()
         {             
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\Musik\Zelda & Chill (online-audio-converter.com).wav");
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Musik\Zelda & Chill (online-audio-converter.com).wav");
             simpleSound.PlayLooping();
         }
         private void Form1_Load(object sender, EventArgs e)

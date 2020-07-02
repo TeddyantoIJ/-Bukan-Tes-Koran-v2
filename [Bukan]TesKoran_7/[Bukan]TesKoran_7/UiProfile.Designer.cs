@@ -51,7 +51,8 @@
             this.txtNama.Name = "txtNama";
             this.txtNama.Size = new System.Drawing.Size(289, 29);
             this.txtNama.TabIndex = 1;
-            this.txtNama.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNama.Text = "MASUKAN NAMA";
+            this.txtNama.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 

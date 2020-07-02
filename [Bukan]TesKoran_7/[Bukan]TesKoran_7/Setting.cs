@@ -113,7 +113,7 @@ namespace _Bukan_TesKoran_7
         public void playMusik(Boolean i)
         {
 
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\Musik\Zelda & Chill (online-audio-converter.com).wav");
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Musik\Zelda & Chill (online-audio-converter.com).wav");
             if (i)
             {
                 simpleSound.PlayLooping();
@@ -126,7 +126,7 @@ namespace _Bukan_TesKoran_7
         }
         public void popSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\Musik\Efek\popUp.wav");
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Musik\Efek\popUp.wav");
 
             simpleSound.Play();
 
