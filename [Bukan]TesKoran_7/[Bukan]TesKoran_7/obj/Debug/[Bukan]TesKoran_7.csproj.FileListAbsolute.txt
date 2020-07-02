@@ -1,0 +1,34 @@
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe.config
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.pdb
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csprojAssemblyReference.cache
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Form1.resources
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Properties.Resources.resources
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.GenerateResource.cache
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CoreCompileInputs.cache
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CopyComplete
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.exe
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.pdb
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiLevel.resources
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGame.resources
+C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiProfile.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe.config
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.pdb
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csprojAssemblyReference.cache
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Properties.Resources.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGame.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiLevel.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiProfile.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.GenerateResource.cache
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CoreCompileInputs.cache
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CopyComplete
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.exe
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.pdb
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.History.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Menu.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Setting.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Main.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Dashboard.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.testing.resources
