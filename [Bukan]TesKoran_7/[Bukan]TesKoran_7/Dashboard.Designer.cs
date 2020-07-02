@@ -463,12 +463,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.Controls.Add(this.mySetting);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.Start);
             this.Controls.Add(this.lblHighscore);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.mySetting);
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(356, 609);
             this.Load += new System.EventHandler(this.Dashboard_Load);
