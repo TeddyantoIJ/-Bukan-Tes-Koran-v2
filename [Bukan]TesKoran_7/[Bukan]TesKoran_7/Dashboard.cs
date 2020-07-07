@@ -168,7 +168,12 @@ namespace _Bukan_TesKoran_7
 
                         //MessageBox.Show("AAA\n" + data.Rows[0][0].ToString() + "\n" + data.Rows[0][1].ToString());
                         hs_nama[i, j] = data.Rows[0][0].ToString(); //(String)tableTemp[0, 0].Value;
+
                         hs_nilai[i,j] = Convert.ToInt32(data.Rows[0][1]);   //tableTemp[0, 0].Value;
+                        if(hs_nama[i, j].ToString().Equals(""))
+                        {
+                            hs_nama[i, j] = "Belum ada";
+                        }
 
                     }
                     catch (Exception ex)
