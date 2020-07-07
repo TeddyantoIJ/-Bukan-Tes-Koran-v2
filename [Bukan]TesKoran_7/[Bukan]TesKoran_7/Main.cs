@@ -227,10 +227,19 @@ namespace _Bukan_TesKoran_7
 
         private void backtoNormal()
         {
+            //Dashbord
             dashboard.main = false;
+
+            //uiGame
             uiGame.benar = 0;
-            uiGrafik.done = false;
             uiGame.mundur = false;
+            uiGame.soal = 0;
+
+            //uiProfil
+            uiProfile.nama = "Masukkan nama anda";
+
+            //uiGrafik
+            uiGrafik.done = false;
             uiGrafik.done = false;
         }
 
@@ -269,8 +278,6 @@ namespace _Bukan_TesKoran_7
                         break;
                     }
             }
-            uiGame.benar = 0;
-            uiProfile.nama = "";
         }
 
         private void uiProfile_VisibleChanged(object sender, EventArgs e)
@@ -288,6 +295,7 @@ namespace _Bukan_TesKoran_7
                     {
                         ubahHighScore();
                         MessageBox.Show("Highscore");
+                        simpanData(uiProfile.nama, uiGame.benar, uiGame.kecepatan, uiGame.ketepatan, uiGame.soal, (uiLevel.waktu / 60), uiLevel.operasi);
                     }
                     else
                     {
@@ -314,8 +322,78 @@ namespace _Bukan_TesKoran_7
                 {
                     uiGame.gameover = false;
                     uiLevel.main = -1;
+                    simpanData("", uiGame.benar, uiGame.kecepatan, uiGame.ketepatan, uiGame.soal, (uiLevel.waktu / 60), uiLevel.operasi);
                     validate();
                 }
+            }
+        }
+        //untuk insert data permainan
+        private void simpanData(String nama,int benar, float kecepatan, float ketepatan, int total_Soal, int waktu_main, int operasi)
+        {
+
+            try
+            {
+                string connectionString = "integrated security = true; data source = localhost; initial catalog = BTK";
+
+                SqlConnection connection = new SqlConnection(connectionString);
+
+                connection.Open();
+                SqlCommand myCommand = new SqlCommand("sp_insertData", connection);
+                myCommand.CommandType = CommandType.StoredProcedure;
+
+                SqlParameter param = new SqlParameter();
+
+                myCommand.Parameters.AddWithValue("@nama", nama);
+                myCommand.Parameters.AddWithValue("@nilai_benar", benar);
+                myCommand.Parameters.AddWithValue("@kecepatan", kecepatan);
+                myCommand.Parameters.AddWithValue("@ketepatan", ketepatan);
+                myCommand.Parameters.AddWithValue("@total_Soal", total_Soal);
+                myCommand.Parameters.AddWithValue("@tanggal", DateTime.Now);
+                myCommand.Parameters.AddWithValue("@waktu", DateTime.Now.ToString("HH:mm:dd"));
+                myCommand.Parameters.AddWithValue("@waktu_main", waktu_main);
+                char operasi1 = ' ';
+                switch (operasi)
+                {
+                    case 1:
+                        {
+                            operasi1 = '+';
+                            break;
+                        }
+                    case 2:
+                        {
+                            operasi1 = '-';
+                            break;
+                        }
+                    case 3:
+                        {
+                            operasi1 = '*';
+                            break;
+                        }
+                    case 4:
+                        {
+                            operasi1 = '/';
+                            break;
+                        }
+                    case 5:
+                        {
+                            operasi1 = '?';
+                            break;
+                        }
+                }
+                myCommand.Parameters.AddWithValue("@operasi", operasi1);
+
+
+                myCommand.ExecuteNonQuery();
+                //by = 1;
+                connection.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("setSettingSuara : " + ex.ToString());
+                //btnUpdate.Enabled = false;
+                //this.msalatkerjaTableAdapter.Fill(this.sakuraDataDataSet2.msalatkerja);
+                //clear();
             }
         }
     }
