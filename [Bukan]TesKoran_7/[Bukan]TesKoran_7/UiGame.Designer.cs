@@ -376,10 +376,8 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtOperasi;
-        private System.Windows.Forms.Label txtWaktu;
         private System.Windows.Forms.Label label2;
         private Bunifu.Framework.UI.BunifuThinButton2 btnSelesai;
-        private System.Windows.Forms.Label txtBenar;
         private System.Windows.Forms.Label txtkiri;
         private System.Windows.Forms.Label operasi;
         private System.Windows.Forms.Label txtkanan;
@@ -395,5 +393,7 @@
         private Bunifu.Framework.UI.BunifuImageButton btn2;
         private Bunifu.Framework.UI.BunifuImageButton btn1;
         public System.Windows.Forms.Timer playtime;
+        public System.Windows.Forms.Label txtBenar;
+        public System.Windows.Forms.Label txtWaktu;
     }
 }

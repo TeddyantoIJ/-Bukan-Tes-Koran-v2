@@ -17,21 +17,18 @@ namespace _Bukan_TesKoran_7
         {
             InitializeComponent();
             
+            
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            mySetting.Visible = true;
+            bunifuTransition.ShowSync(mySetting, false, BunifuAnimatorNS.Animation.HorizSlide);
+            //mySetting.Visible = true;
             mySetting.BringToFront();
             
         }
 
-        private void mySetting_MouseClick(object sender, MouseEventArgs e)
-        {
-            mySetting.Visible = false;
-            mySetting.SendToBack();
-
-        }
+        
 
         private void Start_Click(object sender, EventArgs e)
         {
@@ -47,6 +44,39 @@ namespace _Bukan_TesKoran_7
         private void Dashboard_VisibleChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void mySetting_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Click(object sender, EventArgs e)
+        {
+            if (mySetting.Visible)
+            {
+                bunifuTransition.HideSync(mySetting, false, BunifuAnimatorNS.Animation.HorizSlide);
+            }
+        }
+
+        private void rb10_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb5_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

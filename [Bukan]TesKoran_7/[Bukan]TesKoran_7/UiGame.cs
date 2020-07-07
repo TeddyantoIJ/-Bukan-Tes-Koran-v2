@@ -14,10 +14,15 @@ namespace _Bukan_TesKoran_7
     {
         public int benar = 0;
         public int waktu = 1;
+        public int soal = 0;
+        public int salah = 0;
+        public float kecepatan = 0f;
+        public float ketepatan = 0f;
+
         public bool gameover = false;
+        public bool mundur = false;
 
-
-        private int counter = 0;
+        public int counter = 0;
         private int jawaban = -1;
 
         public int kode_operasi = -1;
@@ -178,12 +183,19 @@ namespace _Bukan_TesKoran_7
         }
         private void jawab(int masuk)
         {
+            
+            
             jawaban = masuk;
             if (jawaban == hasil)
             {
                 txtBenar.Text = (Convert.ToUInt32(txtBenar.Text) + 1).ToString();
             }
             benar = Convert.ToInt32(txtBenar.Text);
+            soal++;
+            salah = soal - benar;
+            kecepatan = (float) soal / waktu;
+            ketepatan = (float) benar / soal;
+            //MessageBox.Show(benar.ToString() + "\n" + soal.ToString() + "\n" + salah.ToString() + "\n" + kecepatan.ToString() + "\n" + ketepatan.ToString());
             jawaban = -1;
             Play();
         }
@@ -235,7 +247,11 @@ namespace _Bukan_TesKoran_7
 
         private void btnSelesai_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            mundur = true;
+            playtime.Enabled = false;
+            gameover = true;
+            counter = 0;
+            this.Visible = false;
         }
     }
 }

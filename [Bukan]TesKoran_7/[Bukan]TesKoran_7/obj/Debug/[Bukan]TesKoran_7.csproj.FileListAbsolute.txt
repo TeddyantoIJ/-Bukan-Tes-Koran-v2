@@ -32,3 +32,4 @@ C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Progr
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Main.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Dashboard.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.testing.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGrafik.resources

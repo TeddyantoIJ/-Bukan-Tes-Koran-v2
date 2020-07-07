@@ -31,7 +31,7 @@ namespace _Bukan_TesKoran_7
 
         private void Setting_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Visible = false;
+            
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -71,13 +71,18 @@ namespace _Bukan_TesKoran_7
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Visible = false;
+
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             Setting set = new Setting();
             set.ShowDialog(this);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
