@@ -224,6 +224,7 @@ namespace _Bukan_TesKoran_7
                 uiGame.waktu = uiLevel.waktu;
                 uiGame.gameover = false;
                 uiGame.beruntun = 0;
+                uiGame.Strike.Clear();
                 uiGame.Play();
             }
             else if(uiGame.gameover)
