@@ -33,3 +33,26 @@ C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Progr
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Dashboard.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.testing.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGrafik.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe.config
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.pdb
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csprojAssemblyReference.cache
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Dashboard.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Main.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.History.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Properties.Resources.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Menu.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Setting.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.testing.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGame.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGrafik.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiLevel.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiProfile.resources
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.GenerateResource.cache
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CoreCompileInputs.cache
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csproj.CopyComplete
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.exe
+E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.pdb
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Petunjuk.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Tentang.resources

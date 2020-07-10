@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRiwayat = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dataRiwayat = new System.Windows.Forms.DataGridView();
             this.no = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,9 +46,10 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.scoreBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.btnKembali = new System.Windows.Forms.Button();
-            this.btnHapus = new System.Windows.Forms.Button();
             this.cmbgrup = new System.Windows.Forms.ComboBox();
+            this.btnKembali1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnHapus1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataRiwayat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scoreBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -59,11 +60,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblRiwayat.AutoSize = true;
-            this.lblRiwayat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRiwayat.Font = new System.Drawing.Font("Kristen ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRiwayat.ForeColor = System.Drawing.Color.White;
-            this.lblRiwayat.Location = new System.Drawing.Point(367, 35);
+            this.lblRiwayat.Location = new System.Drawing.Point(364, 9);
             this.lblRiwayat.Name = "lblRiwayat";
-            this.lblRiwayat.Size = new System.Drawing.Size(95, 25);
+            this.lblRiwayat.Size = new System.Drawing.Size(101, 29);
             this.lblRiwayat.TabIndex = 1;
             this.lblRiwayat.Text = "Riwayat";
             // 
@@ -73,18 +74,18 @@
             this.dataRiwayat.AllowUserToDeleteRows = false;
             this.dataRiwayat.AllowUserToResizeColumns = false;
             this.dataRiwayat.AllowUserToResizeRows = false;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataRiwayat.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataRiwayat.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataRiwayat.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
             this.dataRiwayat.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataRiwayat.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataRiwayat.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataRiwayat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataRiwayat.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.no,
@@ -98,27 +99,27 @@
             this.Column8,
             this.Column9});
             this.dataRiwayat.Cursor = System.Windows.Forms.Cursors.Arrow;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataRiwayat.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataRiwayat.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataRiwayat.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
             this.dataRiwayat.Location = new System.Drawing.Point(12, 73);
             this.dataRiwayat.MultiSelect = false;
             this.dataRiwayat.Name = "dataRiwayat";
             this.dataRiwayat.ReadOnly = true;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataRiwayat.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataRiwayat.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataRiwayat.RowHeadersVisible = false;
             this.dataRiwayat.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dataRiwayat.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -210,34 +211,99 @@
             // 
             this.scoreBindingSource.DataMember = "Score";
             // 
-            // btnKembali
-            // 
-            this.btnKembali.Location = new System.Drawing.Point(1, 425);
-            this.btnKembali.Name = "btnKembali";
-            this.btnKembali.Size = new System.Drawing.Size(75, 23);
-            this.btnKembali.TabIndex = 3;
-            this.btnKembali.Text = "Kembali";
-            this.btnKembali.UseVisualStyleBackColor = true;
-            this.btnKembali.Click += new System.EventHandler(this.btnKembali_Click);
-            // 
-            // btnHapus
-            // 
-            this.btnHapus.Location = new System.Drawing.Point(751, 425);
-            this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(75, 23);
-            this.btnHapus.TabIndex = 4;
-            this.btnHapus.Text = "Hapus Data";
-            this.btnHapus.UseVisualStyleBackColor = true;
-            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
-            // 
             // cmbgrup
             // 
+            this.cmbgrup.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbgrup.FormattingEnabled = true;
-            this.cmbgrup.Location = new System.Drawing.Point(12, 46);
+            this.cmbgrup.Location = new System.Drawing.Point(123, 43);
             this.cmbgrup.Name = "cmbgrup";
-            this.cmbgrup.Size = new System.Drawing.Size(121, 21);
+            this.cmbgrup.Size = new System.Drawing.Size(121, 24);
             this.cmbgrup.TabIndex = 5;
             this.cmbgrup.SelectedIndexChanged += new System.EventHandler(this.cmbgrup_SelectedIndexChanged);
+            // 
+            // btnKembali1
+            // 
+            this.btnKembali1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnKembali1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnKembali1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnKembali1.BorderRadius = 0;
+            this.btnKembali1.ButtonText = "Kembali";
+            this.btnKembali1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnKembali1.DisabledColor = System.Drawing.Color.Gray;
+            this.btnKembali1.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnKembali1.Iconimage = null;
+            this.btnKembali1.Iconimage_right = null;
+            this.btnKembali1.Iconimage_right_Selected = null;
+            this.btnKembali1.Iconimage_Selected = null;
+            this.btnKembali1.IconMarginLeft = 0;
+            this.btnKembali1.IconMarginRight = 0;
+            this.btnKembali1.IconRightVisible = true;
+            this.btnKembali1.IconRightZoom = 0D;
+            this.btnKembali1.IconVisible = true;
+            this.btnKembali1.IconZoom = 90D;
+            this.btnKembali1.IsTab = false;
+            this.btnKembali1.Location = new System.Drawing.Point(12, 413);
+            this.btnKembali1.Name = "btnKembali1";
+            this.btnKembali1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnKembali1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(130)))), ((int)(((byte)(163)))));
+            this.btnKembali1.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnKembali1.selected = false;
+            this.btnKembali1.Size = new System.Drawing.Size(137, 31);
+            this.btnKembali1.TabIndex = 31;
+            this.btnKembali1.Text = "Kembali";
+            this.btnKembali1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnKembali1.Textcolor = System.Drawing.Color.White;
+            this.btnKembali1.TextFont = new System.Drawing.Font("Kristen ITC", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKembali1.Click += new System.EventHandler(this.btnKembali_Click);
+            // 
+            // btnHapus1
+            // 
+            this.btnHapus1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnHapus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnHapus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHapus1.BorderRadius = 0;
+            this.btnHapus1.ButtonText = "Hapus Data";
+            this.btnHapus1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHapus1.DisabledColor = System.Drawing.Color.Gray;
+            this.btnHapus1.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnHapus1.Iconimage = null;
+            this.btnHapus1.Iconimage_right = null;
+            this.btnHapus1.Iconimage_right_Selected = null;
+            this.btnHapus1.Iconimage_Selected = null;
+            this.btnHapus1.IconMarginLeft = 0;
+            this.btnHapus1.IconMarginRight = 0;
+            this.btnHapus1.IconRightVisible = true;
+            this.btnHapus1.IconRightZoom = 0D;
+            this.btnHapus1.IconVisible = true;
+            this.btnHapus1.IconZoom = 90D;
+            this.btnHapus1.IsTab = false;
+            this.btnHapus1.Location = new System.Drawing.Point(680, 413);
+            this.btnHapus1.Name = "btnHapus1";
+            this.btnHapus1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
+            this.btnHapus1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(130)))), ((int)(((byte)(163)))));
+            this.btnHapus1.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnHapus1.selected = false;
+            this.btnHapus1.Size = new System.Drawing.Size(137, 31);
+            this.btnHapus1.TabIndex = 32;
+            this.btnHapus1.Text = "Hapus Data";
+            this.btnHapus1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnHapus1.Textcolor = System.Drawing.Color.White;
+            this.btnHapus1.TextFont = new System.Drawing.Font("Kristen ITC", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHapus1.Click += new System.EventHandler(this.btnHapus_Click);
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Kristen ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(12, 48);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(105, 19);
+            this.bunifuCustomLabel1.TabIndex = 33;
+            this.bunifuCustomLabel1.Text = "Berdasarkan";
             // 
             // History
             // 
@@ -246,9 +312,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(174)))), ((int)(((byte)(163)))));
             this.ClientSize = new System.Drawing.Size(829, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.bunifuCustomLabel1);
+            this.Controls.Add(this.btnHapus1);
+            this.Controls.Add(this.btnKembali1);
             this.Controls.Add(this.cmbgrup);
-            this.Controls.Add(this.btnHapus);
-            this.Controls.Add(this.btnKembali);
             this.Controls.Add(this.dataRiwayat);
             this.Controls.Add(this.lblRiwayat);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -269,9 +336,6 @@
         private System.Windows.Forms.DataGridView dataRiwayat;
         
         private System.Windows.Forms.BindingSource scoreBindingSource;
-        
-        private System.Windows.Forms.Button btnKembali;
-        private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.DataGridViewTextBoxColumn namaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nilaibenarDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn kecepatanDataGridViewTextBoxColumn;
@@ -292,5 +356,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.ComboBox cmbgrup;
+        private Bunifu.Framework.UI.BunifuFlatButton btnKembali1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnHapus1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
     }
 }

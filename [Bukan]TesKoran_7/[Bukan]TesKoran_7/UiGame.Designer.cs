@@ -88,7 +88,7 @@
             this.txtWaktu.AutoSize = true;
             this.txtWaktu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWaktu.ForeColor = System.Drawing.Color.White;
-            this.txtWaktu.Location = new System.Drawing.Point(289, 9);
+            this.txtWaktu.Location = new System.Drawing.Point(283, 9);
             this.txtWaktu.Name = "txtWaktu";
             this.txtWaktu.Size = new System.Drawing.Size(54, 20);
             this.txtWaktu.TabIndex = 11;
@@ -145,11 +145,11 @@
             // txtkiri
             // 
             this.txtkiri.AutoSize = true;
-            this.txtkiri.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtkiri.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtkiri.ForeColor = System.Drawing.Color.White;
             this.txtkiri.Location = new System.Drawing.Point(116, 82);
             this.txtkiri.Name = "txtkiri";
-            this.txtkiri.Size = new System.Drawing.Size(42, 31);
+            this.txtkiri.Size = new System.Drawing.Size(41, 29);
             this.txtkiri.TabIndex = 24;
             this.txtkiri.Text = "00";
             this.txtkiri.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -157,22 +157,22 @@
             // operasi
             // 
             this.operasi.AutoSize = true;
-            this.operasi.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.operasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operasi.ForeColor = System.Drawing.Color.White;
             this.operasi.Location = new System.Drawing.Point(164, 82);
             this.operasi.Name = "operasi";
-            this.operasi.Size = new System.Drawing.Size(28, 31);
+            this.operasi.Size = new System.Drawing.Size(27, 29);
             this.operasi.TabIndex = 25;
             this.operasi.Text = "0";
             // 
             // txtkanan
             // 
             this.txtkanan.AutoSize = true;
-            this.txtkanan.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtkanan.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtkanan.ForeColor = System.Drawing.Color.White;
             this.txtkanan.Location = new System.Drawing.Point(198, 82);
             this.txtkanan.Name = "txtkanan";
-            this.txtkanan.Size = new System.Drawing.Size(42, 31);
+            this.txtkanan.Size = new System.Drawing.Size(41, 29);
             this.txtkanan.TabIndex = 26;
             this.txtkanan.Text = "00";
             // 

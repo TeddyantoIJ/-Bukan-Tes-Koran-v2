@@ -129,13 +129,13 @@
     <value>9, 14</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 15</value>
+    <value>67, 15</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Sound Efek</value>
+    <value>Efek Suara</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -181,6 +181,9 @@
   </data>
   <data name="rbAktif_efek_suara.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="rbAktif_efek_suara.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rbAktif_efek_suara.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 9</value>
@@ -239,6 +242,9 @@
   </data>
   <data name="rbTidak_efek_suara.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="rbTidak_efek_suara.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rbTidak_efek_suara.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -442,7 +448,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Setting</value>
+    <value>Pengaturan</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Setting</value>

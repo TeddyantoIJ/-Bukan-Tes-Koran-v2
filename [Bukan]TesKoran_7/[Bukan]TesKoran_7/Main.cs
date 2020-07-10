@@ -45,9 +45,9 @@ namespace _Bukan_TesKoran_7
                 //    }    
 
                 // =================== MUSIK =================
-                MessageBox.Show("Bahasa\t\t: "+ (data.Rows[0][0].ToString().Equals("0")  ? "Indonesia" : "Inggris") + 
-                                "\nSuara efek\t: "+(data.Rows[0][1].ToString().Equals("1") ? "Aktif" : "Tidak aktif") +
-                                "\nMusik\t\t: "+(data.Rows[0][2].ToString().Equals("1") ? "Aktif" : "Tidak aktif"),"Informasi Setting",MessageBoxButtons.OK);
+                //MessageBox.Show("Bahasa\t\t: "+ (data.Rows[0][0].ToString().Equals("0")  ? "Indonesia" : "Inggris") + 
+                //                "\nSuara efek\t: "+(data.Rows[0][1].ToString().Equals("1") ? "Aktif" : "Tidak aktif") +
+                 //               "\nMusik\t\t: "+(data.Rows[0][2].ToString().Equals("1") ? "Aktif" : "Tidak aktif"),"Informasi Setting",MessageBoxButtons.OK);
                 if (data.Rows[0][2].ToString().Equals("1"))
                 {
                     playMusik();
@@ -85,15 +85,15 @@ namespace _Bukan_TesKoran_7
         }
         private void show(UserControl masuk)
         {
-            uiLevel.SendToBack();
-            uiGame.SendToBack();
-            dashboard.SendToBack();
-            uiProfile.SendToBack();
-            uiGrafik.SendToBack();
+            //uiLevel.SendToBack();
+            //uiGame.SendToBack();
+            //dashboard.SendToBack();
+            //uiProfile.SendToBack();
+            //uiGrafik.SendToBack();
 
             masuk.BringToFront();
-            bunifuTransition.ShowSync(masuk, true, BunifuAnimatorNS.Animation.Scale);
-            //masuk.Visible = true;
+            //bunifuTransition.ShowSync(masuk, true, BunifuAnimatorNS.Animation.Scale);
+            masuk.Visible = true;
             
             //MessageBox.Show(masuk.Name.ToString());
         }
@@ -143,6 +143,15 @@ namespace _Bukan_TesKoran_7
             uiGrafik.txtSalah.Text = uiGame.salah.ToString();
             uiGrafik.txtKecepatan.Text = uiGame.kecepatan.ToString();
             uiGrafik.txtKetepatan.Text = uiGame.ketepatan.ToString();
+
+            uiGrafik.Strike = uiGame.Strike;
+            try
+            {
+                uiGrafik.cekGrafik();
+            }catch(Exception ex)
+            {
+            }
+            
             if (!uiGame.Visible)
             {
                 if (uiGame.gameover && !uiGrafik.done && !uiGame.mundur)
@@ -152,7 +161,7 @@ namespace _Bukan_TesKoran_7
                 }
                 else if (uiGame.gameover && uiGame.mundur)
                 {
-                    MessageBox.Show("Selesai Tombol klik");
+                    //MessageBox.Show("Selesai Tombol klik");
                     uiGame.gameover = false;
                     uiLevel.main = -1;
                     validate();
@@ -294,12 +303,12 @@ namespace _Bukan_TesKoran_7
                     if (uiGame.benar > highscore)
                     {
                         ubahHighScore();
-                        MessageBox.Show("Highscore");
+                        MessageBox.Show("Memecahkan Nilai Tertinggi!!!");
                         simpanData(uiProfile.nama, uiGame.benar, uiGame.kecepatan, uiGame.ketepatan, uiGame.soal, (uiLevel.waktu / 60), uiLevel.operasi);
                     }
                     else
                     {
-                        MessageBox.Show("Doesnt Highscore");
+                        //MessageBox.Show("Doesnt Highscore");
                     }
                     backtoNormal();
                     show(dashboard);

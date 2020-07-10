@@ -232,5 +232,25 @@ namespace _Bukan_TesKoran_7
             }
             
         }
+
+        private void hsnama2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hsnama3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hsnama4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hsnama5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
