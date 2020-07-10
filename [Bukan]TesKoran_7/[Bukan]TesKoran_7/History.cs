@@ -74,7 +74,7 @@ namespace _Bukan_TesKoran_7
         }
         public void addDataScore(String operasi)
         {
-            MessageBox.Show(operasi);
+            //MessageBox.Show(operasi);
             dataRiwayat.DataSource = null;
             dataRiwayat.Columns.Clear();
             try
