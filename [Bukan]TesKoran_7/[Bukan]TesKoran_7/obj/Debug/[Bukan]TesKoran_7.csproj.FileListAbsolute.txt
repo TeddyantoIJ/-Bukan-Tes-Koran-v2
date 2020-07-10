@@ -16,7 +16,6 @@ C:\Users\Albertus\source\repos\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bu
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe.config
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.exe
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\bin\Debug\[Bukan]TesKoran_7.pdb
-C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csprojAssemblyReference.cache
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Properties.Resources.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiGame.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.UiLevel.resources
@@ -56,3 +55,4 @@ E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-mas
 E:\Aris\Tugas Kuliah\SEMESTER 2\STRUKTUR DATA\New folder\-Bukan-Tes-Koran-v2-master\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.pdb
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Petunjuk.resources
 C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\_Bukan_TesKoran_7.Tentang.resources
+C:\Users\Polman\Documents\Teddy-san\Semester 2\Tugas\Struktur Data\Project\Program\[Bukan]TesKoran_7\[Bukan]TesKoran_7\obj\Debug\[Bukan]TesKoran_7.csprojAssemblyReference.cache

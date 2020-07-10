@@ -19,7 +19,7 @@ namespace _Bukan_TesKoran_7
         public float kecepatan = 0f;
         public float ketepatan = 0f;
         public List<int> Strike = new List<int>();
-
+        public int beruntun = 0;
 
 
         public bool gameover = false;
@@ -30,7 +30,7 @@ namespace _Bukan_TesKoran_7
 
         public int kode_operasi = -1;
         private int hasil = -1;
-        private int beruntun = 0;
+        
 
         public UiGame()
         {
@@ -154,22 +154,19 @@ namespace _Bukan_TesKoran_7
 
         private void time_Tick(object sender, EventArgs e)
         {
-            if(counter == 0)
-            {
-                beruntun = 0;
-            }
+            
             if (!gameover)
             {
-                if (beruntun >= 3)
-                {
-                    Strike.Add(beruntun);
-                }
                 TimeSpan result = TimeSpan.FromSeconds(counter);
                 //MessageBox.Show(result.ToString());
                 txtWaktu.Text = result.ToString("mm':'ss");
                 if (counter == waktu)
                 {
                     gameover = true;
+                    if (beruntun >= 3)
+                    {
+                        Strike.Add(beruntun);
+                    }
                     MessageBox.Show("Waktu habis");
                     this.Visible = false;
                 }

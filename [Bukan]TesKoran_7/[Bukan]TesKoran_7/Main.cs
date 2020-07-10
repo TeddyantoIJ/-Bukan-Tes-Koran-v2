@@ -143,10 +143,12 @@ namespace _Bukan_TesKoran_7
             uiGrafik.txtSalah.Text = uiGame.salah.ToString();
             uiGrafik.txtKecepatan.Text = uiGame.kecepatan.ToString();
             uiGrafik.txtKetepatan.Text = uiGame.ketepatan.ToString();
+            
 
             uiGrafik.Strike = uiGame.Strike;
             try
             {
+                uiGrafik.txtBeruntun.Text = uiGame.Strike.Max().ToString();
                 uiGrafik.cekGrafik();
             }catch(Exception ex)
             {
@@ -221,6 +223,7 @@ namespace _Bukan_TesKoran_7
                 uiGame.playtime.Enabled = true;
                 uiGame.waktu = uiLevel.waktu;
                 uiGame.gameover = false;
+                uiGame.beruntun = 0;
                 uiGame.Play();
             }
             else if(uiGame.gameover)

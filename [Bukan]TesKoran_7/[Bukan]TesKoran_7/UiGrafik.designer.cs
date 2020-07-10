@@ -48,6 +48,8 @@
             this.txtSoal = new System.Windows.Forms.Label();
             this.bunifuElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.txtBeruntun = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelHasil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
@@ -147,7 +149,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 91);
+            this.label4.Location = new System.Drawing.Point(6, 113);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(143, 18);
             this.label4.TabIndex = 25;
@@ -158,7 +160,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(6, 108);
+            this.label5.Location = new System.Drawing.Point(6, 130);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(141, 18);
             this.label5.TabIndex = 26;
@@ -167,7 +169,9 @@
             // panelHasil
             // 
             this.panelHasil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelHasil.Controls.Add(this.txtBeruntun);
             this.panelHasil.Controls.Add(this.txtKetepatan);
+            this.panelHasil.Controls.Add(this.label7);
             this.panelHasil.Controls.Add(this.txtBenar);
             this.panelHasil.Controls.Add(this.txtKecepatan);
             this.panelHasil.Controls.Add(this.txtSalah);
@@ -180,14 +184,14 @@
             this.panelHasil.Controls.Add(this.label3);
             this.panelHasil.Location = new System.Drawing.Point(9, 353);
             this.panelHasil.Name = "panelHasil";
-            this.panelHasil.Size = new System.Drawing.Size(331, 141);
+            this.panelHasil.Size = new System.Drawing.Size(331, 162);
             this.panelHasil.TabIndex = 27;
             // 
             // txtKetepatan
             // 
             this.txtKetepatan.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
             this.txtKetepatan.ForeColor = System.Drawing.Color.White;
-            this.txtKetepatan.Location = new System.Drawing.Point(166, 108);
+            this.txtKetepatan.Location = new System.Drawing.Point(166, 130);
             this.txtKetepatan.Name = "txtKetepatan";
             this.txtKetepatan.Size = new System.Drawing.Size(155, 17);
             this.txtKetepatan.TabIndex = 31;
@@ -207,7 +211,7 @@
             // 
             this.txtKecepatan.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
             this.txtKecepatan.ForeColor = System.Drawing.Color.White;
-            this.txtKecepatan.Location = new System.Drawing.Point(166, 91);
+            this.txtKecepatan.Location = new System.Drawing.Point(166, 113);
             this.txtKecepatan.Name = "txtKecepatan";
             this.txtKecepatan.Size = new System.Drawing.Size(155, 17);
             this.txtKecepatan.TabIndex = 30;
@@ -254,6 +258,27 @@
             this.chart1.TabIndex = 28;
             this.chart1.Text = "chart1";
             // 
+            // txtBeruntun
+            // 
+            this.txtBeruntun.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
+            this.txtBeruntun.ForeColor = System.Drawing.Color.White;
+            this.txtBeruntun.Location = new System.Drawing.Point(167, 92);
+            this.txtBeruntun.Name = "txtBeruntun";
+            this.txtBeruntun.Size = new System.Drawing.Size(155, 17);
+            this.txtBeruntun.TabIndex = 30;
+            this.txtBeruntun.Text = "Beruntun";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(7, 92);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(127, 18);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Beruntun tertinggi";
+            // 
             // UiGrafik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,5 +318,7 @@
         public System.Windows.Forms.Label txtSalah;
         public System.Windows.Forms.Label txtSoal;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        public System.Windows.Forms.Label txtBeruntun;
+        private System.Windows.Forms.Label label7;
     }
 }
