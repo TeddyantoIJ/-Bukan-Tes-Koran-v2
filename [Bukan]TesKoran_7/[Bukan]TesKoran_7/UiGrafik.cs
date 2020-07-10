@@ -48,11 +48,11 @@ namespace _Bukan_TesKoran_7
             chart1.Series["Beruntun"].ChartType = SeriesChartType.Line;
             chart1.Series["Beruntun"].Color = Color.Green;
             chart1.Series[0].IsVisibleInLegend = false;
-            //MessageBox.Show(Strike.Count.ToString());
+            MessageBox.Show(Strike.Count.ToString());
 
             for (int i = 1; i <= Strike.Count; i++)
             {
-                //MessageBox.Show(Strike[i - 1].ToString());
+                MessageBox.Show(Strike[i - 1].ToString());
                 chart1.Series["Beruntun"].Points.AddXY(i, Strike[i - 1]);
             }
 

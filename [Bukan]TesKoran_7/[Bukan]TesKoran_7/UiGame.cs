@@ -166,7 +166,9 @@ namespace _Bukan_TesKoran_7
                     if (beruntun >= 3)
                     {
                         Strike.Add(beruntun);
+                        beruntun = 0;
                     }
+                    Strike.Add(beruntun);
                     MessageBox.Show("Waktu habis");
                     this.Visible = false;
                 }
