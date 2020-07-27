@@ -126,6 +126,7 @@
             this.dataRiwayat.Size = new System.Drawing.Size(805, 295);
             this.dataRiwayat.TabIndex = 2;
             this.dataRiwayat.TabStop = false;
+            this.dataRiwayat.Sorted += new System.EventHandler(this.dataRiwayat_Sorted);
             // 
             // no
             // 

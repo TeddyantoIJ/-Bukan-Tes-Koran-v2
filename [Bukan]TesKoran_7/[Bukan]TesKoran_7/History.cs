@@ -22,8 +22,16 @@ namespace _Bukan_TesKoran_7
 
         public void addDataScore()
         {
-            dataRiwayat.DataSource = null;
-            dataRiwayat.Columns.Clear();
+            //dataRiwayat.DataSource = null;
+            try
+            {
+                dataRiwayat.Rows.Clear();
+            }
+            catch(Exception e)
+            {
+
+            }
+            
             try
             {
                 string connectionString = "integrated security = true; data source = localhost; initial catalog = BTK";
@@ -37,12 +45,17 @@ namespace _Bukan_TesKoran_7
                 adapter.SelectCommand = myCommand;
                 adapter.Fill(data);
 
-                dataRiwayat.DataSource = data;
+                //dataRiwayat.DataSource = data;
 
                 for (int i = 0; i < dataRiwayat.Columns.Count; i++)
                 {
                     this.dataRiwayat.Columns[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                     this.dataRiwayat.Columns[i].HeaderCell.Style.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Pixel);
+                }
+                for(int i = 0; i < data.Rows.Count; i++)
+                {
+                    Object[] n = { (i + 1) + ".", data.Rows[i][0].ToString(), data.Rows[i][1].ToString(), data.Rows[i][2].ToString(), data.Rows[i][3].ToString(), data.Rows[i][4].ToString(), String.Format("{0:dd/MM/yyy}", data.Rows[i][5].ToString()).Substring(0,10), String.Format("{0:HH:mm}", data.Rows[i][6].ToString()), data.Rows[i][7].ToString(), data.Rows[i][8].ToString() };
+                    dataRiwayat.Rows.Add(n);
                 }
 
                 this.dataRiwayat.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -72,11 +85,21 @@ namespace _Bukan_TesKoran_7
                 //clear();
             }
         }
+        public void perapihan()
+        {
+            for (int i = 0; i < dataRiwayat.Rows.Count; i++)
+            {
+                dataRiwayat[0, i].Value = i+1+".";
+            }
+        }
         public void addDataScore(String operasi)
         {
             //MessageBox.Show(operasi);
-            dataRiwayat.DataSource = null;
-            dataRiwayat.Columns.Clear();
+            //dataRiwayat.DataSource = null;
+            
+            dataRiwayat.Rows.Clear();
+            
+            
             try
             {
                 string connectionString = "integrated security = true; data source = localhost; initial catalog = BTK";
@@ -95,14 +118,18 @@ namespace _Bukan_TesKoran_7
                 adapter.SelectCommand = myCommand;
                 adapter.Fill(data);
 
-                dataRiwayat.DataSource = data;
+                //dataRiwayat.DataSource = data;
 
                 for (int i = 0; i < dataRiwayat.Columns.Count; i++)
                 {
                     this.dataRiwayat.Columns[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                     this.dataRiwayat.Columns[i].HeaderCell.Style.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Pixel);
                 }
-
+                for (int i = 0; i < data.Rows.Count; i++)
+                {
+                    Object[] n = { (i + 1) + ".", data.Rows[i][0].ToString(), data.Rows[i][1].ToString(), data.Rows[i][2].ToString(), data.Rows[i][3].ToString(), data.Rows[i][4].ToString(), String.Format("{0:dd/MM/yyy}", data.Rows[i][5].ToString()).Substring(0, 10), String.Format("{0:HH:mm}", data.Rows[i][6].ToString()), data.Rows[i][7].ToString(), data.Rows[i][8].ToString() };
+                    dataRiwayat.Rows.Add(n);
+                }
                 this.dataRiwayat.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
                 this.dataRiwayat.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 this.dataRiwayat.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -229,6 +256,11 @@ namespace _Bukan_TesKoran_7
         private void btnKembali_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dataRiwayat_Sorted(object sender, EventArgs e)
+        {
+            perapihan();
         }
     }
 }

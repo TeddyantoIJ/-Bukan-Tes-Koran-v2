@@ -52,6 +52,8 @@ namespace _Bukan_TesKoran_7
             chart1.Series["Dot"].ChartType = SeriesChartType.Point;
             chart1.Series["Dot"].Color = Color.Green;
             chart1.Series[0].IsVisibleInLegend = false;
+            chart1.Series[1].IsVisibleInLegend = false;
+
             chart1.Series["Beruntun"].BorderWidth = 3;
             chart1.Series["Dot"].MarkerSize = 5;
 
