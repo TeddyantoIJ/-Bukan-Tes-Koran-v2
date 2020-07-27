@@ -22,6 +22,11 @@ namespace _Bukan_TesKoran_7
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            if (txtNama.Text.Equals(""))
+            {
+                MessageBox.Show("Masukkan nama dulu lah, kan menang", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             nama = txtNama.Text;
             selesai = true;
             this.Visible = false;
