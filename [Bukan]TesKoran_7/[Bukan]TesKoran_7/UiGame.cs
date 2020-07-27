@@ -25,7 +25,7 @@ namespace _Bukan_TesKoran_7
         public bool gameover = false;
         public bool mundur = false;
 
-        public int counter = 0;
+        public int counter = 1;
         private int jawaban = -1;
 
         public int kode_operasi = -1;
@@ -160,16 +160,22 @@ namespace _Bukan_TesKoran_7
                 TimeSpan result = TimeSpan.FromSeconds(counter);
                 //MessageBox.Show(result.ToString());
                 txtWaktu.Text = result.ToString("mm':'ss");
+                
+                if(counter%15 == 0)
+                {
+                    //MessageBox.Show(counter.ToString());
+                    Strike.Add(beruntun);
+                    beruntun = 0;
+                }
                 if (counter == waktu)
                 {
                     gameover = true;
-                    if (beruntun >= 3)
-                    {
-                        Strike.Add(beruntun);
-                        beruntun = 0;
-                    }
-                    Strike.Add(beruntun);
-                    MessageBox.Show("Waktu habis");
+                    //if (beruntun >= 3)
+                    //{
+                    //    Strike.Add(beruntun);
+                    //    beruntun = 0;
+                    //}
+                    //Strike.Add(beruntun);
                     this.Visible = false;
                 }
                 counter++;
@@ -201,15 +207,15 @@ namespace _Bukan_TesKoran_7
                 txtBenar.Text = (Convert.ToUInt32(txtBenar.Text) + 1).ToString();
                 beruntun++;
             }
-            else
-            {
-                if (beruntun >= 3)
-                {
-                    Strike.Add(beruntun);
-                }
+            //else
+            //{
+            //    if (beruntun >= 3)
+            //    {
+            //        Strike.Add(beruntun);
+            //    }
                 
-                beruntun = 0;
-            }
+            //    beruntun = 0;
+            //}
             benar = Convert.ToInt32(txtBenar.Text);
             soal++;
             salah = soal - benar;

@@ -53,6 +53,7 @@
             this.txtNama.TabIndex = 1;
             this.txtNama.Text = "MASUKAN NAMA";
             this.txtNama.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNama.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNama_KeyPress);
             // 
             // label1
             // 
@@ -101,6 +102,7 @@
             this.Controls.Add(this.txtNama);
             this.Name = "UiProfile";
             this.Size = new System.Drawing.Size(356, 609);
+            this.VisibleChanged += new System.EventHandler(this.UiProfile_VisibleChanged);
             this.ResumeLayout(false);
 
         }

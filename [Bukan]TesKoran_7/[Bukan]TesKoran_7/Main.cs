@@ -117,7 +117,7 @@ namespace _Bukan_TesKoran_7
         private void dashboard_VisibleChanged(object sender, EventArgs e)
         {
             uiGame.txtBenar.Text = "0";
-            uiGame.counter = 0;
+            uiGame.counter = 1;
             uiGame.txtWaktu.Text = "00:00";
             uiLevel.main = 0;
 
@@ -141,14 +141,23 @@ namespace _Bukan_TesKoran_7
             uiGrafik.txtBenar.Text = uiGame.benar.ToString();
             uiGrafik.txtSoal.Text = uiGame.soal.ToString();
             uiGrafik.txtSalah.Text = uiGame.salah.ToString();
-            uiGrafik.txtKecepatan.Text = uiGame.kecepatan.ToString();
-            uiGrafik.txtKetepatan.Text = uiGame.ketepatan.ToString();
+            try
+            {
+                uiGrafik.txtKecepatan.Text = uiGame.kecepatan.ToString().Substring(0, 4);
+                uiGrafik.txtKetepatan.Text = uiGame.ketepatan.ToString().Substring(0,4);
+            }
+            catch(Exception ex)
+            {
+                uiGrafik.txtKecepatan.Text = uiGame.kecepatan.ToString();
+                uiGrafik.txtKetepatan.Text= uiGame.ketepatan.ToString();
+            }
+            uiGrafik.txtWaktuMain.Text = (uiGame.waktu / 60).ToString()+" Menit";
             
 
             uiGrafik.Strike = uiGame.Strike;
             try
             {
-                uiGrafik.txtBeruntun.Text = uiGame.Strike.Max().ToString();
+                //uiGrafik.txtBeruntun.Text = uiGame.Strike.Max().ToString();
                 uiGrafik.cekGrafik();
             }catch(Exception ex)
             {
@@ -358,8 +367,24 @@ namespace _Bukan_TesKoran_7
 
                 myCommand.Parameters.AddWithValue("@nama", nama);
                 myCommand.Parameters.AddWithValue("@nilai_benar", benar);
-                myCommand.Parameters.AddWithValue("@kecepatan", kecepatan);
-                myCommand.Parameters.AddWithValue("@ketepatan", ketepatan);
+                if(kecepatan.ToString().Length > 4)
+                {
+                    myCommand.Parameters.AddWithValue("@kecepatan", float.Parse(kecepatan.ToString().Substring(0, 4).Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture));
+                }
+                else
+                {
+                    myCommand.Parameters.AddWithValue("@kecepatan", float.Parse(kecepatan.ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture));
+                }
+                if(ketepatan.ToString().Length > 4)
+                {
+                    myCommand.Parameters.AddWithValue("@ketepatan", float.Parse(ketepatan.ToString().Substring(0, 4).Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture));
+                }
+                else
+                {
+                    myCommand.Parameters.AddWithValue("@ketepatan", float.Parse(ketepatan.ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture));
+                }
+                
+                
                 myCommand.Parameters.AddWithValue("@total_Soal", total_Soal);
                 myCommand.Parameters.AddWithValue("@tanggal", DateTime.Now);
                 myCommand.Parameters.AddWithValue("@waktu", DateTime.Now.ToString("HH:mm:dd"));

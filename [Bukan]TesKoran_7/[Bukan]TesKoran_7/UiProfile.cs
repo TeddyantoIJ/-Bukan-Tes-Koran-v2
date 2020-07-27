@@ -26,5 +26,18 @@ namespace _Bukan_TesKoran_7
             selesai = true;
             this.Visible = false;
         }
+
+        private void UiProfile_VisibleChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtNama_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(txtNama.Text.Length == 25)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
